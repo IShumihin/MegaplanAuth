@@ -1,0 +1,10 @@
+setup.py
+MegaplanAuth/__init__.py
+MegaplanAuth/auth_backend.py
+MegaplanAuth.egg-info/PKG-INFO
+MegaplanAuth.egg-info/SOURCES.txt
+MegaplanAuth.egg-info/dependency_links.txt
+MegaplanAuth.egg-info/requires.txt
+MegaplanAuth.egg-info/top_level.txt
+MegaplanAuth/megaplan/__init__.py
+MegaplanAuth/megaplan/megaplan.py
