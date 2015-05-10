@@ -9,7 +9,7 @@ from .megaplan.megaplan import Client
 
 User = get_user_model()
 
-class MpApiAuthBackends(ModelBackend):
+class MegaplanAuthBackends(ModelBackend):
     def authenticate(self, username=None, password=None, **kwargs):
         host = getattr(settings, 'MEGAPLAN_AUTH_HOST', None)
         greate_new_user = getattr(settings, 'MEGAPLAN_AUTH_GREATE_USER', True)
