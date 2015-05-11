@@ -1,6 +1,7 @@
 ### Django auth from [Megaplan](https://megaplan.ru/)
 
-Add MEGAPLAN_AUTH_HOST in you settings.py and set megaplan url
+- Add MEGAPLAN_AUTH_HOST in you settings.py and set megaplan url
+- Add 'MegaplanAuth.MegaplanAuthBackends' in you AUTHENTICATION_BACKENDS
 
 #### Options 
 MEGAPLAN_AUTH_GREATE_USER(default: True) - create a new user if the user is not found but it authorization
